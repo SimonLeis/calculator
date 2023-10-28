@@ -1,0 +1,133 @@
+.calculator {
+  background-color: grey;
+  width: 800px;
+  height: 1200px;
+  border-radius: 50px;
+
+  margin: 0 auto;
+  margin-top: 5rem;
+  font-family: "roboto";
+}
+
+.calculatorDisplay {
+  background-color: white;
+  width: 700px;
+  border-radius: 25px;
+  height: 150px;
+
+  margin: 0 auto;
+  position: relative;
+  top: 2rem;
+
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 7rem;
+  font-family: "arial";
+}
+
+.one {
+  grid-area: one;
+  font-size: inherit;
+  font-family: inherit;
+}
+.two {
+  grid-area: two;
+  font-size: inherit;
+  font-family: inherit;
+}
+.three {
+  grid-area: three;
+  font-size: inherit;
+  font-family: inherit;
+}
+.four {
+  grid-area: four;
+  font-size: inherit;
+  font-family: inherit;
+}
+.five {
+  grid-area: five;
+  font-size: inherit;
+  font-family: inherit;
+}
+.six {
+  grid-area: six;
+  font-size: inherit;
+  font-family: inherit;
+}
+.seven {
+  grid-area: seven;
+  font-size: inherit;
+  font-family: inherit;
+}
+.eight {
+  grid-area: eight;
+  font-size: inherit;
+  font-family: inherit;
+}
+.nine {
+  grid-area: nine;
+  font-size: inherit;
+  font-family: inherit;
+}
+.komma {
+  grid-area: komma;
+  font-size: inherit;
+  font-family: inherit;
+}
+.zero {
+  grid-area: zero;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.clear {
+  grid-area: clear;
+  font-size: inherit;
+  font-family: inherit;
+}
+.divide {
+  grid-area: divide;
+  font-size: inherit;
+  font-family: inherit;
+}
+.multiply {
+  grid-area: mulitply;
+  font-size: inherit;
+  font-family: inherit;
+}
+.plus {
+  grid-area: plus;
+  font-size: inherit;
+  font-family: inherit;
+}
+.minus {
+  grid-area: minus;
+  font-size: inherit;
+  font-family: inherit;
+}
+.equal {
+  grid-area: equal;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.numPad {
+  margin-top: 100px;
+  height: 900px;
+  width: 100%;
+
+  font-size: 4rem;
+  font-family: "Arial";
+
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    " . . .  clear divide ."
+    ". one two three mulitply ."
+    ". four five six plus . "
+    ". seven eight nine minus ."
+    ". komma zero zero equal .";
+}
