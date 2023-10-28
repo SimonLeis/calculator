@@ -24,6 +24,8 @@
   align-items: end;
   font-size: 7rem;
   font-family: "arial";
+
+  overflow: hidden;
 }
 
 .one {
